@@ -11,7 +11,7 @@ Payment page
 ![image](https://user-images.githubusercontent.com/107784718/202646268-0aaabc85-8f4e-489f-b264-94155ccda30b.png)
 
 payment successfull popup
-![image](https://user-images.githubusercontent.com/107784718/202646462-063b211e-1f1d-4cce-b5fd-e4575089bd78.png)
+![image](https://user-images.githubusercontent.com/107784718/202646830-5f221f7c-dd68-488e-bbdb-aa7128bc31bd.png)
 
 after successful payment
 ![image](https://user-images.githubusercontent.com/107784718/202646569-8a75c9bb-337e-4ae8-b175-1d19e3860a4e.png)
