@@ -1,4 +1,4 @@
-.base-container{
+.base-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,24 +7,28 @@
     margin: auto;
     margin-top: 1rem;
 }
-.base-container__input{
+
+.base-container__input {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
     gap: 0.2rem;
 }
-.input{
+
+.input {
     display: flex;
     gap: 1rem;
 }
-input{
+
+input {
     width: 3rem;
     height: 1.5rem;
     border-radius: 0.4rem;
     padding: 0.3rem;
     font-size: 18px;
 }
-.error{
+
+.error {
     color: red;
 }
