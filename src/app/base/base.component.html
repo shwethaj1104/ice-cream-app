@@ -1,0 +1,26 @@
+<div class="base-container">
+    <p>Welcome to the Trapeze Ice Cream Shop! Who is buying, and what base would you like to have?</p>
+    <form [formGroup]="forms">
+        <select formControlName="userName" (change)="selected()">
+            <option value="Alanna Mosvani">Alanna Mosvani</option>
+            <option value="Mat Cauthon">Mat Cauthon</option>
+            <option value="Moiraine Damodred">Moiraine Damodred</option>
+        </select>
+        <div class="base-container__radio-btn">
+            <div class="radio-btn">
+                <input [attr.disabled]="isDisabled ? true : null" [checked]="ischeck" (change)="onInput()" formControlName="cup" type="checkbox" name="Cup" id="">Cup
+            </div>
+            <div class="radio-btn">
+                <input [attr.disabled]="isDisabled ? true : null" [checked]="ischeck" (change)="onInput()"formControlName="cakeCone" type="checkbox" name="Cake Cone" id=""> Cake Cone
+            </div>
+            <div class="radio-btn">
+                <input [attr.disabled]="isDisabled ? true : null" [checked]="ischeck" (change)="onInput()" formControlName="sugarCone" type="checkbox" name="Sugar Cone" id="">Sugar Cone
+            </div>
+            <div class="radio-btn">
+                <input [attr.disabled]="isDisabled ? true : null" [checked]="ischeck" (change)="onInput()" formControlName="waffleCone" type="checkbox" name="Waffle Cone" id="">Waffle Cone
+            </div>
+        </div>
+      </form>
+      <button (click)="refresh()">Refresh</button>
+    
+</div>

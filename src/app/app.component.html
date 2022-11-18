@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="container__btn">
+    <button class="container__btn-1" (click)="onBase()" [disabled]="baseBtn"><span class="btnNumber">1</span> <span>Choose Base</span></button>
+    <button class="container__btn-2" (click)="onFlavours()" [disabled]="flavourBtn"><span class="btnNumber">2</span> <span>Choose Flavours</span> </button>
+    <button class="container__btn-3" (click)="onPayment()" [disabled]="paymentBtn"><span class="btnNumber">3</span> <span>Payment</span></button>
+  </div>
+  <app-base (baseVal)="baseVal($event)" *ngIf="base"></app-base>
+  <app-flavours-scoops (flavourVal)="flavourVal($event)" *ngIf="flavoursScoops"></app-flavours-scoops>
+  <app-payment (paymentVal)="paymentVal($event)" *ngIf="payment"></app-payment>
+
+</div>
+
+

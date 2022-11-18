@@ -1,0 +1,12 @@
+<div class="base-container">
+    <p>And your total comes to....</p>
+    <form [formGroup]="forms">
+        <div class="base-container__input">
+                <input readonly formControlName="amount" type="text" name="amount" id="">
+        </div>
+      </form>
+      <div class="btn">
+          <button class="btn-cancel" (click)="onCancel()">CANCEL</button>
+          <button class="btn-proceed" (click)="onPayment()">PROCEED WITH PAYMENT</button>
+      </div>
+</div>
