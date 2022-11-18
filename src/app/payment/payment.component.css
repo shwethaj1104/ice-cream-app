@@ -1,4 +1,4 @@
-.base-container{
+.base-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,28 +6,33 @@
     margin-top: 1rem;
     margin: auto;
     margin-top: 1rem;
-    gap:1rem
+    gap: 1rem
 }
 
-input{
+input {
     height: 2rem;
     padding: 0.2rem;
     font-size: 17px;
 }
-.btn{
+
+.btn {
     display: flex;
     gap: 1rem;
 }
-.btn-cancel, .btn-proceed{
+
+.btn-cancel,
+.btn-proceed {
     padding: 0.5rem;
     border-radius: 0.3rem;
     border: none;
     font-weight: 500;
 }
-.btn-cancel{
+
+.btn-cancel {
     color: #006d77;
 }
-.btn-proceed{
-    background-color: #006d77 ;
+
+.btn-proceed {
+    background-color: #006d77;
     color: white;
 }

@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 90%;
     margin: auto;
     display: flex;
@@ -10,14 +10,16 @@
     padding: 2rem;
     border-radius: 1rem;
 }
-.container__btn{
+
+.container__btn {
     display: grid;
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
 }
-button{
+
+button {
     height: 3rem;
     width: 11rem;
     padding: 0.5rem;
@@ -27,12 +29,12 @@ button{
     font-size: 16px;
     border-radius: 0.3rem;
 }
-button:disabled{
+
+button:disabled {
     background-color: #006d77a8;
 }
-.btnNumber{
+
+.btnNumber {
     margin-right: 0.5rem;
-    /* border-radius: 50%; */
-    /* background: #57a0a6; */
     padding: 0.5rem 0.6rem;
 }
