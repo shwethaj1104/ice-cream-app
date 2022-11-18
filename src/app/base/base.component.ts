@@ -11,9 +11,9 @@ import { BehaviorService } from '../service/service';
   styleUrls: ['./base.component.css']
 })
 export class BaseComponent implements OnInit {
-  @Output() baseVal=new EventEmitter<boolean>();
-  isDisabled:boolean=true
-  ischeck:boolean=false
+  @Output() baseVal = new EventEmitter<boolean>();
+  isDisabled: boolean = true
+  ischeck: boolean = false
   forms = new FormGroup({
     userName: new FormControl('', Validators.required),
     cup: new FormControl(false, Validators.required),
@@ -21,40 +21,38 @@ export class BaseComponent implements OnInit {
     sugarCone: new FormControl(false, Validators.required),
     waffleCone: new FormControl(false, Validators.required),
   });
-  constructor(private service:BehaviorService) { }
+  constructor(private service: BehaviorService) { }
 
   ngOnInit(): void {
   }
-  selected(){
-    if(this.forms.value.userName){
-      this.isDisabled=false
-    }else{
-      this.isDisabled=true
+  selected() {
+    if (this.forms.value.userName) {
+      this.isDisabled = false
+    } else {
+      this.isDisabled = true
     }
   }
-  onInput(){
-    console.log("keyup",this.forms.value)
+  onInput() {
     this.service.sendBase(this.forms.value)
-    let form=this.forms.value
-      this.isDisabled=false
-      for(let i in form){
-        if(form[i]===true){
-          console.log("trueeee")
-          this.isDisabled=true
-          this.baseVal.emit(true)
-        }
+    let form = this.forms.value
+    this.isDisabled = false
+    for (let i in form) {
+      if (form[i] === true) {
+        this.isDisabled = true
+        this.baseVal.emit(true)
       }
+    }
   }
-  refresh(){
-    this.isDisabled=false
-    this.ischeck=false
+  refresh() {
+    this.isDisabled = false
+    this.ischeck = false
     this.baseVal.emit(false)
     this.forms.patchValue({
-      cup:false,
-      cakeCone:false,
-      sugarCone:false,
-      waffleCone:false,
-      userName:'',
+      cup: false,
+      cakeCone: false,
+      sugarCone: false,
+      waffleCone: false,
+      userName: '',
     });
   }
 
