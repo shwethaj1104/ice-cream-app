@@ -1,6 +1,7 @@
 # Ice-cream-app : 
 
-Base page
+Base page:
+User name and atlesat one base is mandatory
 ![image](https://user-images.githubusercontent.com/107784718/202645953-54d059cd-105b-4153-90d7-befac2742a84.png)
 
 
