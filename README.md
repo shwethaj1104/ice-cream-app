@@ -9,7 +9,7 @@ User name and atleast one base is mandatory
 Flavours and scoop page:
 ![image](https://user-images.githubusercontent.com/107784718/202646168-5e5be0db-10c2-454c-a5b9-57f81f520901.png)
 
-Payment page
+Payment page:
 ![image](https://user-images.githubusercontent.com/107784718/202646268-0aaabc85-8f4e-489f-b264-94155ccda30b.png)
 
 payment successfull popup
