@@ -15,5 +15,5 @@ Payment page:
 payment successfull popup:
 ![image](https://user-images.githubusercontent.com/107784718/202646830-5f221f7c-dd68-488e-bbdb-aa7128bc31bd.png)
 
-after successful payment
+after successful payment:
 ![image](https://user-images.githubusercontent.com/107784718/202646569-8a75c9bb-337e-4ae8-b175-1d19e3860a4e.png)
