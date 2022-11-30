@@ -1,4 +1,4 @@
-# Ice cream app : 
+# Shopping app : 
 
 Base page :
 User name and atleast one base is mandatory.
