@@ -15,7 +15,7 @@ Based on selected options amount will be calculated and auto populated on the pa
 
 ![image](https://user-images.githubusercontent.com/107784718/202646268-0aaabc85-8f4e-489f-b264-94155ccda30b.png)
 
-payment successfull popup :
+Payment successfull popup :
 
 ![image](https://user-images.githubusercontent.com/107784718/202646830-5f221f7c-dd68-488e-bbdb-aa7128bc31bd.png)
 
